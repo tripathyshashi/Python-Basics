@@ -1,1 +1,17 @@
+#macOS
 .DS_Store
+
+#python
+__pycache__/
+*.pyc
+
+#VSCode
+.vscode/
+
+# C Executables
+a.out
+*.out
+
+# Ignore executable files and in the C folder, but keep .c source files
+Mini-Projects/C/*
+!Mini-Projects/C/*.c
