@@ -1,10 +1,10 @@
 age = int(input("Enter the age : "))
 
-if (age < 13):
-    print("Child")
+i (age < 13):
+    print("\tChild")
 elif (age>=13 and age<19):
-    print("Teenager")
+    print("\tTeenager")
 elif (age>=19 and age<60):
-    print("Adult")
+    print("\tAdult")
 else:
-    print("Senior Citizen")
+    print("\tSenior Citizen")
