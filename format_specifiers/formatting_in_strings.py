@@ -8,14 +8,15 @@ sum=a+b
 print("The sum of {} and {} is {}".format(a,b,sum))
 
 
-#index based formatting
+print("Index based formatting")
 print("The sum of {1} and {0} is {2}".format(a,b,sum))
 
 
+print("Value based formatting")
 #we can even use it for specify direct variables
 print("\nThis is {} and this {} {}".format("Python","is my favourite one","and i hope it'll help me get well far to tech career"))
 
 
-#VALUE BASED FORMATTING :
-#we can even use it print direct value of the variables________e.g
+print("Value based formatting")
+#we can even use it for specify direct variables
 print("The value is {c} and {d}".format(c=5,d=7))

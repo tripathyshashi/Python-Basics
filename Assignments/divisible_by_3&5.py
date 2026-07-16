@@ -3,13 +3,22 @@
 # Programmer : Shashi
 
 
-def start(a):
-    while a <= b:
-        if a % 3 == 0 and a % 5 == 0:
-            print(a)
-        a += 1
+def start(a, b):
+    c = a
+    found = False
+    if a > b:
+        print("\nInvalid Entry!!\nStarting number must be lower than ending number ")
+    else:
+        while a <= b:
+            if a % 3 == 0 and a % 5 == 0:
+                print(a)
+                found = True
+            a += 1
+
+    if found == False:
+        print(f"\n\tNo such value between {c} & {b}")
 
 
 a = int(input("Enter the starting number : "))
 b = int(input("Enter the ending number : "))
-start(a)
+start(a, b)
