@@ -1,9 +1,12 @@
+# In Python, a loop is used to iterate (loop) over a sequence, such as a list, tuple,
+# string, or range, and execute a block of code for each item in that sequence.
+
 #range(n) means sequence from 0 to (n-1) 
 #for i in range(5):
    # print(i+1)
     
 count=0
-word="artificial intelligence"   #counting 'i' in provided word
+word=input("Enter a word : ")   #counting 'i' in provided word
 for ch in word:
     if(ch=='i'):
         count+=1
